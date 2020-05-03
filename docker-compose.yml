@@ -22,7 +22,7 @@ services:
       # HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 5.9.198.249:8000
     volumes:
       - .:/code
     ports:
